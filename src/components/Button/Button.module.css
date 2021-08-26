@@ -1,0 +1,20 @@
+.btn {
+    font-size: 1.5rem;
+    width: 10rem;
+    background-color: rgb(100, 91, 91);
+    color: white;
+}
+.btnOperator {
+    background: rgb(255, 145, 0);
+    font-size: 2rem;
+    color: white;
+    border: 1px solid black;
+    width: 10rem;
+  
+}
+.btnZero {
+    width: 20rem;
+    font-size: 1.5rem;
+    background-color: rgb(100, 91, 91);
+    color: white;
+}

@@ -1,0 +1,20 @@
+.display {
+    background-color: grey;
+    font-weight: bold;
+    color: white;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 3rem;
+  }
+
+.operation {
+  vertical-align:super;
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 0.6rem;
+  height: 1.5rem;
+}
