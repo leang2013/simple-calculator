@@ -1,0 +1,22 @@
+.btn {
+    font-size: 1.5rem;
+    width: 10rem;
+    background-color: #1795d4;
+    color: white;
+    border-color: black;
+}
+.btnOperator {
+    background: #1795d4;
+    font-size: 2rem;
+    color: white;
+    border: 1px solid black;
+    width: 10rem;
+    border-color: black;
+}
+.btnZero {
+    width: 20rem;
+    font-size: 1.5rem;
+    background-color: #1795d4;
+    color: white;
+    border-color: black;
+}

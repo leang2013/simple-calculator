@@ -1,0 +1,21 @@
+.display {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 3rem;
+  }
+
+.operation {
+  vertical-align:super;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 1.5rem;
+  padding-right: 0.6rem;
+  background: white;
+  color: black;
+}
