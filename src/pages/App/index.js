@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Panel from '../../components/Panel';
 import calculation from '../../utils/calculation';
 import styles from './App.module.css';
+import Logo from '../../assets/logo.png';
 
 const App = () => {
   const [total, setTotal] = useState(null);
@@ -50,6 +51,9 @@ const App = () => {
 
   return (
     <>
+      <div className={styles.logo}>
+        <img src={Logo} height="50" alt="Equal Experts Logo" />
+      </div>
       <div className={styles.title}>
         <h3>Calculator</h3>
       </div>

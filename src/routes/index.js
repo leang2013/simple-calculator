@@ -7,6 +7,7 @@ const Routing = () => (
     <div>
       {
                 Object.keys(routes).map((route) => (
+                  // eslint-disable-next-line react/jsx-props-no-spreading
                   <Route {...routes[route]} kkey={routes[route].id} />
                 ))
             }
