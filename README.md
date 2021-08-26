@@ -1,4 +1,6 @@
-# Code Chalengue - Simple Calculator
+# Code Challenge - Simple Calculator
+
+[![Screen-Shot-2021-08-26-at-10-57-33.png](https://i.postimg.cc/sXqmF5GD/Screen-Shot-2021-08-26-at-10-57-33.png)](https://postimg.cc/xJGMMJPW)
 
 This project was bootstrapped with own scaffolding.
 
