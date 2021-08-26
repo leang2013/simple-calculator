@@ -11,7 +11,7 @@ describe('Button', () => {
       const linkElement = getByText('0');
       expect(linkElement).toBeInTheDocument();
     });
-    it('Should contain the button ', () => {
+    it('Should contain the word nine ', () => {
       const fun = jest.fn();
       const { getByTitle } = render(<Button value="9" title="nine" action={fun} />);
       const linkElement = getByTitle('nine');

@@ -28,6 +28,6 @@ You will also see any lint errors in the console.
 Launches the test runner. <br />
 
 
-### `npm test:coverage`
+### `npm run test:coverage`
 
 Create the report for coverage in the folder coverage.<br />

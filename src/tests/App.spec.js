@@ -4,7 +4,7 @@ import '@testing-library/jest-dom';
 import App from '../pages/App';
 
 describe('Component', () => {
-  it('Should contain the number Simple Calculator! ', () => {
+  it('Should contain the number Calculator! ', () => {
     const { getByText } = render(<App />);
     const linkElement = getByText('Calculator');
     expect(linkElement).toBeInTheDocument();
