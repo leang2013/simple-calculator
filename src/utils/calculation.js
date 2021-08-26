@@ -1,14 +1,10 @@
 import BigNumber from 'bignumber.js';
 
 const calculation = (firstNumber, secondNumber, operation) => {
-  let bigFirstNum;
-  let bigSecondNum;
+  const bigFirstNum = new BigNumber(firstNumber);
+  const bigSecondNum = new BigNumber(secondNumber);
   let result;
 
-  if (firstNumber !== null && secondNumber !== null) {
-    bigFirstNum = new BigNumber(firstNumber);
-    bigSecondNum = new BigNumber(secondNumber);
-  }
   if (operation === '-') {
     result = BigNumber(bigFirstNum.minus(bigSecondNum));
   }
