@@ -1,5 +1,7 @@
 # Code Chalengue - Simple Calculator
 
+[![Screen-Shot-2021-08-26-at-10-57-33.png](https://i.postimg.cc/sXqmF5GD/Screen-Shot-2021-08-26-at-10-57-33.png)](https://postimg.cc/xJGMMJPW)
+
 This project was bootstrapped with own scaffolding.
 
 ID: 5b8d0fd276b6d288905ed2f63a934e057e8feca2
