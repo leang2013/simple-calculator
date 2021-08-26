@@ -55,19 +55,15 @@
     "webpack-dev-server": "3.11.0"
   },
   "scripts": {
-    "compiles-proto": "sh ./scripts/protoc.sh",
     "start": "cross-env NODE_ENV=development webpack serve",
     "build:dev": "cross-env NODE_ENV=development webpack --mode development",
     "build:prod": "cross-env NODE_ENV=production webpack --mode production --progress",
     "lint": "eslint src/**/*.js --ignore-pattern node_modules",
     "lint:fix": "eslint src/**/*.js --fix ",
     "lint:ci": "eslint src/**/*.js --ignore-pattern node_modules --format html --output-file report/lint/report.html",
-    "lintsass": "sass-lint -v",
-    "lintsass:fix": "sass-lint-auto-fix -d",
     "test": "cross-env NODE_ENV=test jest --config jest-config.json",
     "test:watch": "cross-env NODE_ENV=test jest --config jest-config.json --watch --coverage=false",
     "test:coverage": "cross-env NODE_ENV=test jest --config jest-config.json --coverage",
-    "test:ci": "jest --ci --config jest-config.json --coverage --reporters=default --reporters=jest-junit --reporters=jest-trx-results-processor --coverageReporters=cobertura",
     "serve": "node ./server.js",
     "clean": "rm -rf dist"
   },
