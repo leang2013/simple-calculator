@@ -1,6 +1,6 @@
 # Code Chalengue - Simple Calculator
 
-This project was bootstrapped with own scalfolding
+This project was bootstrapped with own scaffolding.
 
 ID: 5b8d0fd276b6d288905ed2f63a934e057e8feca2
 ## Routes
